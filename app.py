@@ -8,7 +8,61 @@ messages = [
     "Cẩn thận mất tiền 😏",
     "Có người đang nhớ bạn ❤️",
     "Code hôm nay không bug đâu 😎",
-    "Người yêu tương lai đang đến gần 👀"
+    "Người yêu tương lai đang đến gần 👀",
+
+    "Một cơ hội lớn sắp đến, đừng bỏ lỡ ✨",
+    "Hôm nay nên tránh quyết định quan trọng ⚠️",
+    "Tin vui bất ngờ đang chờ bạn 📩",
+    "Có người đang thầm ghen tị với bạn 👀",
+    "Tối nay dễ có drama nhẹ 🎭",
+
+    "Bạn sắp gặp một người quan trọng 🤝",
+    "Hôm nay hợp ăn uống, không hợp cãi nhau 🍜",
+    "Ví tiền cần được bảo vệ kỹ 💸",
+    "Sắp có người rủ đi chơi 🎉",
+    "Có quý nhân phù trợ 🧿",
+
+    "Hôm nay nói ít làm nhiều sẽ tốt hơn 🤫",
+    "Năng lượng của bạn đang rất cao 🔥",
+    "Đừng tin lời hứa hôm nay 100% 🤥",
+    "Có người đang stalk bạn đó 📱",
+    "Một tin nhắn quan trọng sắp tới 💬",
+
+    "Hôm nay hợp mặc đồ màu sáng 🌈",
+    "Tránh thức khuya nếu không muốn xui xẻo 🌙",
+    "Sắp có người khen bạn 😌",
+    "Cơ hội kiếm tiền nhỏ nhưng chắc 💰",
+    "Nên nghe nhạc chill để tăng vận may 🎧",
+
+    "Một bí mật sẽ được bật mí 🤫",
+    "Hôm nay hợp làm việc nhóm 👥",
+    "Coi chừng nói nhầm điều gì đó 😅",
+    "Có người đang chờ bạn chủ động 💌",
+    "Bạn sắp có thêm follower mới 📈",
+
+    "Hôm nay dễ bị dụ mua đồ sale 🛍️",
+    "Có cơ hội học được điều mới 📚",
+    "Một cuộc gặp bất ngờ sắp xảy ra 🚶",
+    "Đừng để cảm xúc điều khiển bạn 💭",
+    "Hôm nay hợp thử cái gì đó mới 🆕",
+
+    "Bạn đang ở giai đoạn chuyển mình 🌱",
+    "Một người cũ có thể xuất hiện lại 👻",
+    "Cẩn thận với deadline ⏰",
+    "Hôm nay hợp tỏ tình đó 💘",
+    "Sắp có động lực mới trong công việc 🚀",
+
+    "Một chuyến đi ngắn ngày đang chờ 🧳",
+    "Có người muốn hợp tác với bạn 🤝",
+    "Hôm nay nên uống nhiều nước 💧",
+    "Một lời khuyên sẽ giúp bạn thay đổi góc nhìn 👁️",
+    "Hôm nay dễ gặp may nhỏ nhưng vui 🎲",
+
+    "Bạn đang được vũ trụ theo dõi 🌌",
+    "Sắp có một niềm vui nhỏ bất ngờ 🎁",
+    "Hôm nay hợp bắt đầu kế hoạch mới 📝",
+    "Có người đang muốn làm quen bạn 💬",
+    "Một bước đi táo bạo sẽ mang lại kết quả tốt 💎"
 ]
 
 html = """
@@ -133,5 +187,6 @@ import os
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
 
 
