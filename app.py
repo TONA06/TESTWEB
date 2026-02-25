@@ -40,6 +40,9 @@ def home():
         name = request.form["name"]
         result = random.choice(messages)
     return render_template_string(html, result=result, name=name)
+import os
 
 if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
     app.run(debug=True)
